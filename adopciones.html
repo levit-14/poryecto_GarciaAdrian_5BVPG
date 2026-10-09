@@ -8,57 +8,70 @@
 <body>
 
     <header>
-        <h1>Huellitas Comunitarias</h1>
-        <p>Encuentra a tu nuevo compañero</p>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="adopciones.html">Adopciones</a></li>
-                <li><a href="donaciones.html">Donaciones</a></li>
-            </ul>
-        </nav>
+        <div class="header-info">
+            <h1>Huellitas Comunitarias</h1>
+            <p>Proyecto PAEC - Sección de Adopción</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="adopciones.html" class="activo">Adopciones</a></li>
+                    <li><a href="donaciones.html">Donaciones</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>Mascotas Disponibles para Adopción</h2>
-            <p>Todos nuestras mascotas se entregan desparasitadas y vacunadas.</p>
+    <div class="contenedor-principal">
+        
+        <aside class="columna-publicidad">
+            <div class="anuncio-box">
+                <h3>Tu mascota merece lo mejor</h3>
+                <h4>Purina®</h4>
+                <a href="https://purina.com.mx/purina" target="_blank">
+                    <img src="img/purina-banner.jpg" alt="Publicidad Purina">
+                </a>
+                <a href="https://purina.com.mx/purina" target="_blank" class="link-publicidad">
+                    Visita el sitio oficial de Purina &raquo;
+                </a>
+            </div>
+        </aside>
+
+        <main class="columna-contenido">
+            <h2>Mascotas en Adopción</h2>
+            <p style="text-align: center;">Dale una segunda oportunidad a uno de nuestros peluditos rescatados.</p>
 
             <div class="galeria">
                 <article class="tarjeta">
-                    <img src="img/perro1.jpg" alt="Perro Max">
+                    <img src="img/perro1.jpg" alt="Max">
                     <h3>Max</h3>
                     <p><strong>Especie:</strong> Perro</p>
                     <p><strong>Edad:</strong> 1 año</p>
-                    <p>Juguetón, amigable y muy activo.</p>
                 </article>
 
                 <article class="tarjeta">
-                    <img src="img/gato1.jpg" alt="Gata Luna">
+                    <img src="img/gato1.jpg" alt="Luna">
                     <h3>Luna</h3>
                     <p><strong>Especie:</strong> Gata</p>
                     <p><strong>Edad:</strong> 6 meses</p>
-                    <p>Tranquila, cariñosa y limpia.</p>
                 </article>
 
                 <article class="tarjeta">
-                    <img src="img/perro2.jpg" alt="Perro Rocky">
+                    <img src="img/perro2.jpg" alt="Rocky">
                     <h3>Rocky</h3>
                     <p><strong>Especie:</strong> Perro</p>
                     <p><strong>Edad:</strong> 3 años</p>
-                    <p>Obediente, protector y tranquilo.</p>
                 </article>
 
                 <article class="tarjeta">
-                    <img src="img/gato2.jpg" alt="Gata Mía">
+                    <img src="img/gato2.jpg" alt="Mía">
                     <h3>Mía</h3>
                     <p><strong>Especie:</strong> Gata</p>
                     <p><strong>Edad:</strong> 2 años</p>
-                    <p>Curioseadora y amigable con niños.</p>
                 </article>
             </div>
-        </section>
-    </main>
+        </main>
+
+    </div>
 
     <footer>
         <p>&copy; 2026 Huellitas Comunitarias - Proyecto Escolar PAEC</p>
